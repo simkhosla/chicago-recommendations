@@ -1,0 +1,10 @@
+  <div class = "recs">
+  <% @recs.each do |rec| %>
+  <li class = "recItem">
+  <h3><%=rec.place%></h3>
+  <p><span>Type of Place: </span><%=rec.type_of_place%></p>
+  <p><span>Notes: </span><%=rec.notes%></p>
+  <p><span>Contributor: </span><%=rec.contributor%></p>
+  </li>
+  <% end %>
+  </div>
